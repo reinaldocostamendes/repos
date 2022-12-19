@@ -1,0 +1,12 @@
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\bin\Debug\net5.0\Projeto.Shared.deps.json
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\bin\Debug\net5.0\Projeto.Shared.dll
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\bin\Debug\net5.0\Projeto.Shared.pdb
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.dll
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\refint\Projeto.Shared.dll
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\Projeto.Shared.pdb
+C:\Users\rcm_r\source\repos\Projeto.Shared\Projeto.Shared\obj\Debug\net5.0\ref\Projeto.Shared.dll

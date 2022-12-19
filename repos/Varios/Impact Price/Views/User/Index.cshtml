@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Impact_Price.Models.TbUser>
+
+
+@{
+    ViewData["Title"] = "Utilizadores";
+    Pager pager = new Pager();
+    if(ViewBag.Pager != null){
+    pager =ViewBag.Pager;
+    int pageNo = pager.CurrentPage;
+}
+}
+
+<h1>Impact Price Utilizadores</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-success ml-1">Criar Novo</a>
+</p>
+<partial name="_Pager" model="pager"/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Login)
+            </th>
+            <!--<th>
+                @Html.DisplayNameFor(model => model.Senha)
+            </th>-->
+            <th>
+                @Html.DisplayNameFor(model => model.Latsupdate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Login)
+            </td>
+           <!-- <td>
+               @Html.DisplayFor(modelItem => item.Senha)
+            </td>-->
+            <td>
+                @Html.DisplayFor(modelItem => item.Latsupdate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdUser" class="btn btn-sm btn-primary ml-1">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdUser" class="btn btn-sm btn-info ml-1">Detalhas</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdUser" class="btn btn-sm btn-danger ml-1">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

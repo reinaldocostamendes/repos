@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Acesso";
+}
+ @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+ @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            };
+        </script>
+    }
+    <div class="msg">@ViewBag.Message</div>
+<div class="wrapper">
+    <div class="logo"> <img src="images/take_away.jpg" alt=""> </div>
+    <div class="text-center mt-4 name"> Impact Price Admin </div>
+    <form sp-action="Login" method="post" class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center"> <span class="far fa-user"></span> <input type="text" name="username" id="username" placeholder="Username"> </div>
+        <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="password" name="senha" id="senha" placeholder="Senha"> </div> 
+        <button type="submit" class="btn mt-3">Login</button>
+    </form>
+    <div class="text-center fs-6"> <a href="#">Forget password?</a> or <a href="#">Sign up</a> </div>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+</div>
